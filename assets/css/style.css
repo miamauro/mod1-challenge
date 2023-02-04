@@ -83,6 +83,7 @@ section {
   margin-left: 20px;
 }
 
+/*Separating element selectors with a space defines the properties of the descendent element. Separating element selectors with a comma defines all specified elements.*/
 section div {
   margin-bottom: 20px;
   padding: 50px;

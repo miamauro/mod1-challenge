@@ -29,5 +29,11 @@ THEN I find a concise, descriptive title
 
 ## Usage
 
-The following link leads to the deployed application.  
-The following image shows the deployed application's appearance.
+The following link leads to the deployed application.
+https://miamauro.github.io/mod1-challenge/  
+
+The following images show screenshots of the deployed application.  
+
+![plot](./assets/images/screenshot1.png)  
+![plot](./assets/images/screenshot2.png)  
+![plot](./assets/images/screenshot3.png)
