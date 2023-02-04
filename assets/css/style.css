@@ -53,10 +53,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
 /*The margin property is used to create space around an element.*/
 main {
   height: 800px;
