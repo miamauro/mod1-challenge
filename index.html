@@ -8,8 +8,11 @@
 
   <body>
     <header>
+      <!--Using a span element allows us to split the below title to apply different css properties throughout the word.-->
       <h1>Hori<span class="seo">seo</span>n</h1>
+      <!--Add id's to navigate to the corresponding sections below.-->
       <nav>
+        <!--Use an unordered list to space nav bar items neatly.-->
         <ul>
           <li>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,8 +28,10 @@
         </ul>
       </nav>
     </header>
+    <!--Add an aria label for accessibility.-->
     <main aria-label="marketing business meeting"></main>
     <section>
+      <!--Use classes (such as .float-left to group sections together to style them using the same properties without having to repeat code.)-->
       <div id="search-engine-optimization" class="search-engine-optimization">
         <img
           src="./assets/images/search-engine-optimization.jpg"
@@ -76,6 +81,7 @@
     </section>
     <aside>
       <div class="benefit-lead">
+        <!--We can use a descendent combinator in css to apply the same properties to all h3 elements that are descendents of the aside.-->
         <h3>Lead Generation</h3>
         <img
           src="./assets/images/lead-generation.png"
@@ -88,6 +94,7 @@
       </div>
       <div class="benefit-brand">
         <h3>Brand Awareness</h3>
+        <!--Add alt attributes to images to improve accessibility and seo rankings.-->
         <img
           src="./assets/images/brand-awareness.png"
           alt="light bulb shirt and tie icon"
@@ -109,6 +116,8 @@
         </p>
       </div>
     </aside>
+    <!--HTML is read from top to bottom, which is why the footer element is at the bottom of the document.
+    Semantic elements (such as header, aside, footer, etc.) allow for better readability and organization as opposed to grouping each portion as a div.)-->
     <footer>
       <h4>Made with ❤️️ by Horiseon</h4>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
